@@ -1,3 +1,4 @@
+"""Test python app."""
 from flask import Flask
 
 
@@ -6,6 +7,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
+    """Index."""
     return "<h1>Hello WSB! Greetings from Flask!</h1>"
 
 
